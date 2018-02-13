@@ -1,10 +1,20 @@
-## instalation
+# instalation
 
-~~~
+**in developement**
 
-** in developement **
+run ./install.sh
+
+## dependancies :
+
+Packages :
 ```
-creating an installer
-
-for the libraries
+swig
+swnoboy
+sox
+libatlas-base-dev
+```
+PIP :
+```
+pyaudio
+gtts
 ```
