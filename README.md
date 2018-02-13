@@ -9,7 +9,7 @@ run ./install.sh
 Packages :
 ```
 swig
-swnoboy
+snowboy
 sox
 libatlas-base-dev
 ```
