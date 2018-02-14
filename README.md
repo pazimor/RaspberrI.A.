@@ -1,6 +1,6 @@
-# instalation
+[![Build Status](https://travis-ci.org/vim/vim.svg?branch=master)](https://github.com/pazimor/RaspberrI.A.)
 
-**in developement**
+# instalation
 
 run ./install.sh
 
@@ -18,3 +18,5 @@ PIP :
 pyaudio
 gtts
 ```
+
+**work in progress**
