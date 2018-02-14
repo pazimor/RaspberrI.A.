@@ -1,10 +1,10 @@
 [![Build Status](https://travis-ci.org/vim/vim.svg?branch=master)](https://github.com/pazimor/RaspberrI.A.)
 
-# instalation
+# installation
 
 run ./install.sh
 
-## dependancies :
+## dependencies :
 
 Packages :
 ```
