@@ -18,3 +18,8 @@ git clone https://github.com/Kitt-AI/snowboy.git
 
 make -C ~/RaspberrI.A./snowboy/swig/Python3
 make -C ~/RaspberrI.A./snowboy/swig/Python
+
+cp ~/RaspberrI.A./snowboy/swig/Python3/_snowboydetect.so ~/RaspberrI.A./IA/
+cp ~/RaspberrI.A./snowboy/swig/Python3/snowboydetect.py ~/RaspberrI.A./IA/
+
+rm -rf ~/RaspberrI.A./snowboy
