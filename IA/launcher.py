@@ -44,6 +44,10 @@ def getFolders(path):
     files = [f for f in os.listdir(path) if os.path.isdir(os.path.join(path, f))]
     return files
 
+def getWords(path):
+    fd = open(path, "r+")
+    words = str(fd.read()).split(" ")
+    return words
 
 array = getVocabulary(os.getcwd() + "/../vocabulary")
 callbacks = getCallbackArray(array)
@@ -57,7 +61,7 @@ for i in folders:
     if commande[1] == "sentence":
         Hotword.append(os.getcwd() + "/../Cmd/" + str(i) + "/" + commande[1])
 print(script)
-print(Hotword)
+print(getWords(Hotword[0]))
 
 print("work in progress")
 sys.exit(-1)
